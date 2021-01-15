@@ -1,0 +1,76 @@
+/* ---------- RESET BROWSER -------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+/* -------- COLOR STARS -------- */
+
+.blue{
+    color :#0065FC;
+}
+
+.grey{
+    color: #F2F2F2;
+}
+
+/* -------- HEADER AND NAV -------- */
+
+header{
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    padding-top: 5px;
+    color: #0065FC;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+nav{
+    height: 80px;
+}
+
+nav ol{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav ol li{
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ol li a{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 12px;
+    font-size: 16px;
+    color: black;
+    border-bottom: solid 4px #F2F2F2;
+}
+
+nav ol li a:hover{
+    font-weight: 900;
+    color: #0065FC;
+    border-bottom: solid 4px #0065FC;
+}
