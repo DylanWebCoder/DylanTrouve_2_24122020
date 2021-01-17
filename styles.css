@@ -120,6 +120,8 @@ nav ol li a:hover{
     border: solid 1px #F2F2F2;
     padding: 20px;
     outline: none;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .searching_bar i{
@@ -327,7 +329,7 @@ nav ol li a:hover{
 }
 
 .hebergement-city h2{
-    margin: 30px 0 20px 0;
+    margin: 20px 0 30px 0;
     padding-left: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -441,10 +443,10 @@ nav ol li a:hover{
 footer{
     width: 100%;
     background-color: #F2F2F2;
-    padding: 40px 0 0 20px;
+    padding: 40px 0 40px 20px;
 }
 
-.about-section, .hebergements-section, .assistance-section{
+.about-section, .hebergements-section {
     margin-bottom: 40px;
 }
 
@@ -458,4 +460,296 @@ footer h4{
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
+}
+
+
+
+/* -------------------------------- RESPONSIVE -------------------------------- */ 
+
+/* -------- RESPONSIVE FOOTER -------- */
+@media screen and (min-width:800px){
+    footer{
+        padding-left: 40px;
+        margin-top: 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    footer div{
+        width: 100%;
+    }
+    footer div li{
+        width: 100%;
+    }
+}
+
+/* -------- RESPONSIVE ACTIVITIES -------- */
+@media screen and (min-width:690px){
+    .container-activities{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:1200px){
+    #activities_city h2{
+        font-size: 22px;
+        margin: 0 0 0 35px;
+    }
+    #activities_city h5{
+        padding-top: 10px;
+        font-size: 19px;
+    }
+    .container-act-1, .container-act-2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .activity-col2, .activity-col3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-activity{
+        width: 300px;
+        margin: 20px;
+    }
+    .column1{
+        height: 495px;
+    }
+    .column1 img{
+        height: 430px;
+    }
+    .column2{
+        height: 270px;
+    }
+    .column2 img{
+        height: 205px;
+    }
+    .column3{
+        height: 185px;
+    }
+    .column3 img{
+        height: 120px;
+    }
+    .column4{
+        height: 222px;
+    }
+    .column4 img{
+        height: 155px;
+    }
+    .column5{
+        height: 232px;
+    }
+    .column5 img{
+        height: 167px;
+    }
+}
+@media screen and (min-width:1900px){
+    .card-activity{
+        width: 420px;
+        margin: 20px;
+    }
+}
+
+/* -------- HEBERGEMENT RESPONSIVE -------- */
+@media screen and (min-width:700px){
+    .container-hebergement{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-heberg{
+        margin: 15px;
+    }
+    .card-popular{
+        margin:20px;
+    }
+}
+@media screen and (min-width:1050px){
+    .container-card-popular{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .container-column1, .container-column2{
+        display: flex;
+        flex-direction: row;
+    }
+    #container_all_hebergement{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0 50px 0;
+        padding: 0 50px 0 50px;
+
+    }
+    .container-card-popular{
+        flex-direction: column;
+    }
+    .hebergement-city{
+        border-radius: 25px;
+        background-color: #F2F2F2;
+        height: 680px;
+        width: 70%;
+        margin: 0 20px 0 0;
+        padding: 0 30px 0 30px;
+    }
+    .most-popular{
+        border-radius: 25px;
+        height: 680px;
+        width: 35%;
+        margin: 0 0 0 20px;  
+    }
+    .card-popular{
+        width: 85%;
+        height: 160px;
+        margin: 15px;
+    }
+
+    .card-popular .infos-card-top{
+        padding-right: 30px;
+    }
+
+    .card-popular img{
+        height: 150px;
+        width: 150px;
+    }
+    .card-heberg{
+        margin: 15px;
+        width: 33.3%;
+        height: 220px;
+    }
+    .card-heberg img{
+        padding: 5px;
+        width: 100%;
+        height: 130px;
+    }
+    .header-popular{
+        margin: 10px 0 10px 0;
+        padding: 35px 40px 5px 40px;
+    }
+    .hebergement-city h2{
+        margin: 50px 0 10px 0;
+    }
+    .infos-card-heb h5{
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    .infos-card-heb p{
+        margin-bottom: 5px;
+    }
+    .stars-h{
+        align-self: flex-start;
+        padding-left: 14px;
+    }
+    .infos-card-top h5{
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+/* -------- HEADER AND NAV RESPONSIVE -------- */
+@media screen and (min-width:1200px){
+    header{
+        padding: 30px 60px 0 50px;
+    }
+    nav{
+        height: 10px;
+    }
+    nav ol{
+        position: relative;
+        left: -115px;
+        top: -50px;
+        justify-content: flex-end;
+    }
+    nav ol li{
+        width: 185px;
+    }
+    nav ol li a{
+        padding: 0 35px 0 35px;
+        display: inline;
+        border-bottom: none;
+    }
+    nav ol li a:hover{
+        padding-top: 42px ;
+        border-top: 4px solid #0065FC;
+        border-bottom: none;
+    }
+
+}
+
+/* -------- FILTERS, NOTIF, BAR, TEXT -------- */
+@media screen and (min-width:1200px){
+    #filters{
+        flex-direction: row;
+        align-items: center;
+    }
+    #filters h3{
+        margin: 10px 30px 0 30px;
+    }
+    #notification{
+        margin: 10px 0 10px 30px;
+    }
+    .searching_bar{
+        margin: 20px 0 0 50px;
+    }
+    #description_site{
+        margin: 10px 0px 10px 30px;  
+    }
+    .button-filter{
+        margin: 10px 30px 0 0px;
+    }
+    .button-filter p{
+        margin: 0 30px 0 15px;
+    }
+    .searching_bar input[type=submit]{
+        display: block;
+    }
+    .search-mark{
+        display: none;
+    }
+    .searching_bar form{
+        display: flex;
+    }
+    .searching_bar input[type=text]{
+        width: 220px;
+    }
+}
+
+/* -------- HEADER AND NAV RESPONSIVE -------- */
+@media screen and (min-width:1200px){
+    header{
+        padding: 30px 60px 0 50px;
+    }
+    nav{
+        height: 10px;
+    }
+    nav ol{
+        position: relative;
+        left: -115px;
+        top: -50px;
+        justify-content: flex-end;
+    }
+    nav ol li{
+        width: 185px;
+    }
+    nav ol li a{
+        padding: 0 35px 0 35px;
+        display: inline;
+        border-bottom: none;
+    }
+    nav ol li a:hover{
+        padding-top: 42px ;
+        border-top: 4px solid #0065FC;
+        border-bottom: none;
+    }
 }
