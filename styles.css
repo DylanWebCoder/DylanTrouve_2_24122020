@@ -482,6 +482,9 @@ footer h4{
     footer div li{
         width: 100%;
     }
+    .about-section, .hebergements-section {
+        margin-bottom: 0px;
+    }
 }
 
 /* -------- RESPONSIVE ACTIVITIES -------- */
