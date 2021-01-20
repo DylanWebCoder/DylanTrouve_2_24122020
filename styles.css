@@ -101,6 +101,11 @@ nav ol li a:hover{
     display: flex;
 }
 
+.searching_bar form{
+    display: flex;
+}
+
+
 .searching_bar input[type=submit]{
     display: none;
     border-radius: 0 20px 20px 0;
@@ -147,6 +152,8 @@ nav ol li a:hover{
     cursor: pointer;
     background: #0065FC;
     color: white;
+    outline: none;
+    border: none;
 }
 
 /* -------------------- FILTERS -------------------- */
