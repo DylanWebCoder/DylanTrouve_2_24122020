@@ -668,36 +668,6 @@ footer h4{
     }
 }
 
-/* -------- HEADER AND NAV RESPONSIVE -------- */
-@media screen and (min-width:1200px){
-    header{
-        padding: 30px 60px 0 50px;
-    }
-    nav{
-        height: 10px;
-    }
-    nav ol{
-        position: relative;
-        left: -115px;
-        top: -50px;
-        justify-content: flex-end;
-    }
-    nav ol li{
-        width: 185px;
-    }
-    nav ol li a{
-        padding: 0 35px 0 35px;
-        display: inline;
-        border-bottom: none;
-    }
-    nav ol li a:hover{
-        padding-top: 42px ;
-        border-top: 4px solid #0065FC;
-        border-bottom: none;
-    }
-
-}
-
 /* -------- FILTERS, NOTIF, BAR, TEXT -------- */
 @media screen and (min-width:1200px){
     #filters{
